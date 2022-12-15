@@ -1,0 +1,141 @@
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+    --Bluecolor: hsl(228, 45%, 44%);
+}
+
+.attribution a {  }
+html {
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: var(--LightGray);
+}
+/* cabecero*/
+header {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 35rem;
+    max-width: 35rem;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 4rem;
+}
+header h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+header p {
+    color: var(--GrayishBlue);
+}
+/*tablas*/
+main {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    
+}
+div {
+    width: 25rem;
+    margin: 0 auto;
+    height: 17rem;
+}
+main h1 {
+    font-size: 26px;
+}
+main h2 {
+    font-size: 16px;
+    color: var(--GrayishBlue);
+    font-weight: 400;
+}
+.tabla24 {
+    display: flex;
+    flex-direction: column;
+}
+.tabla1 {
+    background-color: white;
+    padding: 1rem;
+    border-top: solid 3px;
+    border-radius: 7px;
+    border-color: var(--Cyan);
+    margin-top: 10rem;
+    margin-right: -9rem;
+}
+.tabla2 {
+    background-color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: solid 3px;
+    border-radius: 7px;
+    border-color: red;
+    margin-bottom: 2rem;
+}
+.tabla3 {
+    background-color: white;
+    margin-top: 10rem;
+    padding: 1rem;
+    border-top: solid 3px;
+    border-radius: 7px;
+    
+    border-color: yellow;
+    margin-left: -7rem;
+}
+.tabla4 {
+    background-color: white;
+    padding: 1rem;
+    border-top: solid 3px;
+    border-radius: 7px;
+    border-color: var(--Bluecolor);
+}
+
+/*imagen*/
+img{
+    margin-left: 20rem;
+    margin-top: 4rem;   
+}
+/*footer*/
+footer {
+    margin-top: 20rem;
+}
+@media (max-width: 768px ) {
+    header {
+        margin-bottom: 5rem;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 0 auto;
+        height: 10rem;
+    }
+    div {
+        margin: 0 auto;
+    }
+    .tabla1 {
+        
+        margin: 0 auto;
+    }
+    .tabla2 {
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    .tabla3 {
+        margin-left: 9.4rem ;
+        margin-top: 8rem;
+    }
+    .tabla4 {
+        margin-right: -3rem;
+        margin-top: 21.5rem;
+    }
+    footer {
+        margin-top: 80rem;
+    }
+    
+    
+ }
